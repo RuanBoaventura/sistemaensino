@@ -46,7 +46,7 @@
 		}
 		
 		.index {
-			width: 100%;
+			width: 1920px;
 			height: 1080px;
 			background: url('../imgs/index.png') no-repeat 50% 0%;
 		}
@@ -58,25 +58,25 @@
 	/* ===== pages ===== */
 		
 		.index-hover {
-			width: 100%;
+			width: 1920px;
 			height: 1080px;
 			background: url('../imgs/index-hover.png') no-repeat 50% 0%;
 		}
 		
 		.index-active {
-			width: 100%;
+			width: 1920px;
 			height: 1080px;
 			background: url('../imgs/index-active.png') no-repeat 50% 0%;
 		}
 		
 		.login {
-			width: 100%;
+			width: 1920px;
 			height: 900px;
 			background: url('../imgs/index-hover.png') no-repeat 50% 0%;
 		}
 		
 		.login-focus {
-			width: 100%;
+			width: 1920px;
 			height: 900px;
 			background: url('../imgs/index-active.png') no-repeat 50% 0%;
 		}
