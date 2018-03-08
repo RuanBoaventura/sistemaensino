@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+	/* ===== reset css ===== */
+		
+		html, body, div, span, applet, object, iframe, table, caption,
+		tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins,
+		kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+		acronym, address, big, cite, code, dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend {
+		vertical-align: baseline;
+		outline: 0;
+		padding: 0;
+		margin: 0;
+		border: 0;
+		}
+		:focus {
+		outline: 0;
+		}
+		body {
+		background: white;
+		line-height: 1;
+		color: black;
+		}
+		table {
+		border-collapse: separate;
+		border-spacing: 0;
+		}
+		caption, th, td {
+		font-weight: normal;
+		text-align: left;
+		}
+		blockquote:before, blockquote:after, q:before, q:after {
+		content: "";
+		}
+		blockquote, q {
+		quotes: "" "";
+		}
+		
+	/* ===== all pages styles ===== */
+		
+		* {
+			box-sizing: border-box;	/* ===== opera/ie 8+ ===== */
+			-webkit-box-sizing: border-box;	/* =====chrome/safari, outros webkit ===== */
+			-moz-box-sizing: border-box;	/* ===== firefox e outros gecko ===== */
+		}
+		
+		.index {
+			width: 100%;
+			height: 1080px;
+			background: url('../imgs/index.png') no-repeat 50% 0%;
+		}
+		
+		.clearfix {
+			clear: both;
+		}
+	
+	/* ===== pages ===== */
+		
+		.index-hover {
+			width: 100%;
+			height: 1080px;
+			background: url('../imgs/index-hover.png') no-repeat 50% 0%;
+		}
+		
+		.index-active {
+			width: 100%;
+			height: 1080px;
+			background: url('../imgs/index-active.png') no-repeat 50% 0%;
+		}
+		
+		.login {
+			width: 100%;
+			height: 900px;
+			background: url('../imgs/index-hover.png') no-repeat 50% 0%;
+		}
+		
+		.login-focus {
+			width: 100%;
+			height: 900px;
+			background: url('../imgs/index-active.png') no-repeat 50% 0%;
+		}
