@@ -71,12 +71,18 @@
 		
 		.login {
 			width: 1920px;
-			height: 900px;
+			height: 1080px;
 			background: url('../imgs/login.png') no-repeat 50% 0%;
 		}
 		
 		.login-focus {
 			width: 1920px;
-			height: 900px;
+			height: 1080px;
 			background: url('../imgs/login-focus.png') no-repeat 50% 0%;
+		}
+		
+		.login-erro {
+			width: 1920px;
+			height: 1080px;
+			background: url('../imgs/login-erro.png') no-repeat 50% 0%;
 		}
